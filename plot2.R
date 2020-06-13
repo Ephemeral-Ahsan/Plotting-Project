@@ -21,5 +21,4 @@ plot(subpower$Time,as.numeric(subpower$Global_active_power),type="l",xlab="",yla
 title(main="Global Active Power Vs Time")
 
 dev.copy(png,"plot2.png")
-
 dev.off()
